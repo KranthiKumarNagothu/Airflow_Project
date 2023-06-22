@@ -7,7 +7,7 @@ from airflow.operators.python_operator import EmailOperator
 
 
 default_args={
-        'owner':’Raj’,
+        'owner':’Kranthi’,
         'start_date':datetime(2023,5,5),
         'retries':3,
         'retry_delay':timedelta(minutes=5)
